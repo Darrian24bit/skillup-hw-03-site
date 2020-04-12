@@ -6,8 +6,11 @@
     font-weight: normal;
 }
 
-* {
-    box-sizing: border-box;
+.section-header {
+    height: 60vw;
+    background-image: url(/img/hero-img.png);
+    background-size: cover;
+
 }
 
 .section-header-logo {
@@ -25,21 +28,27 @@
 
 }
 
-.section-header-nav nav ul a {
+.section-header-nav nav ul li {
     padding-left: 40px;
-    font-family: "MyriadProRegular";
-    font-size: 16px;
-    font-family: "Asap";
-    color: rgb(77, 77, 77);
-    line-height: 4.188;
 
 
 }
 
-.section-header {
-    height: 750px;
+.section-header-nav nav ul a {
+    /* padding-left: 40px; */
+    font-family: "MyriadProRegular";
+    font-size: 16px;
+    font-family: "Asap";
+    color: rgb(77, 77, 77);
+    text-decoration: none;
 
-    background-image: url(/img/hero-img.png);
+
+}
+
+.section-header-nav nav ul a:hover {
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+
 }
 
 .section-header-content {
@@ -135,6 +144,10 @@ button.second-button {
 
 }
 
+.know-title img {
+    padding-left: 100px;
+}
+
 
 .know-subtitle p {
     font-size: 16px;
@@ -165,3 +178,47 @@ button.know-button-1 {
     color: rgb(77, 77, 77);
     text-transform: uppercase;
 }
+
+/* ---------------services---------------- */
+
+
+.services-logo h2 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    font-size: 46px;
+    font-family: "Asap";
+    color: rgba(77, 77, 77, 0.8);
+    font-weight: bold;
+}
+
+.services-img img {
+    padding-bottom: 20px;
+    position: relative;
+    left: 40%;
+
+}
+
+.services-img-span {
+
+    font-size: 24px;
+    font-family: "Asap";
+    color: rgb(77, 77, 77);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+
+
+}
+
+
+/* ----------------MY SKILS---------------- */
+
+.marking img {
+    padding-bottom: 250px;
+
+}
+
+
+/* -------------PORTFOLIO------------------  */
