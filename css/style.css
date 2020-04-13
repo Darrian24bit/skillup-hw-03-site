@@ -8,14 +8,17 @@
 
 .section-header {
     height: 60vw;
-    background-image: url(img/hero-img.png);
+    background-image: url(/img/hero_img.png);
+    background-repeat: no-repeat;
     background-size: cover;
+
 
 }
 
 .section-header-logo {
     padding-top: 30px;
     padding-left: 100px;
+
 }
 
 .section-header-nav nav ul {
@@ -222,3 +225,80 @@ button.know-button-1 {
 
 
 /* -------------PORTFOLIO------------------  */
+
+.portfolio-image {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    box-sizing: unset;
+}
+
+.portfolio-image :hover {
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.15);
+
+}
+
+.portfolio-input {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 230px;
+}
+
+button.portfolio-input-button {
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    color: rgb(77, 77, 77);
+    text-transform: uppercase;
+}
+
+.carousel-control-next-icon {
+    color: tomato;
+}
+
+/* -------funfacts--------- */
+
+
+.funfacts {
+    margin-top: 120px;
+    background-color: rgb(246, 246, 246);
+    width: 90%;
+    height: 300px;
+    margin-bottom: 150px;
+
+}
+
+.funfacts img {
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+
+.funfacts span {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Asap";
+    color: rgba(33, 33, 33, 0.902);
+    padding-left: 115px;
+    padding-top: 30px;
+    line-height: 1.455;
+
+}
+
+.funfacts p {
+    padding-left: 60px;
+    font-size: 22px;
+    font-family: "Asap";
+    color: rgba(33, 33, 33, 0.902);
+    text-transform: uppercase;
+    line-height: 1.455;
+
+}
+
+/* ---------------- footer ------------ */
