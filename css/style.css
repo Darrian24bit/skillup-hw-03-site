@@ -1,304 +1,362 @@
 @font-face {
-    font-family: "MyriadProRegular";
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 .section-header {
-    height: 60vw;
-    background-image: url(/img/hero_img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
+  height: 60vw;
+  background-image: url(/img/hero_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-header-logo {
-    padding-top: 30px;
-    padding-left: 100px;
-
+  padding-top: 30px;
+  padding-left: 100px;
 }
 
 .section-header-nav nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
-    padding-top: 30px;
-    padding-right: 100px;
-    text-transform: uppercase;
-
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  padding-top: 30px;
+  padding-right: 100px;
+  text-transform: uppercase;
 }
 
 .section-header-nav nav ul li {
-    padding-left: 40px;
-
-
+  padding-left: 40px;
 }
 
 .section-header-nav nav ul a {
-    /* padding-left: 40px; */
-    font-family: "MyriadProRegular";
-    font-size: 16px;
-    font-family: "Asap";
-    color: rgb(77, 77, 77);
-    text-decoration: none;
-
-
+  /* padding-left: 40px; */
+  font-family: "MyriadProRegular";
+  font-size: 16px;
+  font-family: "Asap";
+  color: rgb(77, 77, 77);
+  text-decoration: none;
 }
 
 .section-header-nav nav ul a:hover {
-    border-bottom: solid 1px;
-    padding-bottom: 10px;
-
+  border-bottom: solid 1px;
+  padding-bottom: 10px;
 }
 
 .section-header-content {
-    padding-top: 180px;
-    padding-left: 100px;
-    padding-bottom: 300px;
+  padding-top: 180px;
+  padding-left: 100px;
+  padding-bottom: 300px;
 }
 
 .section-header-content-title h1 {
-    font-size: 90px;
-    font-family: "Asap";
-    color: rgb(77, 77, 77);
-    line-height: 0.744;
-
-
-
+  font-size: 90px;
+  font-family: "Asap";
+  color: rgb(77, 77, 77);
+  line-height: 0.744;
 }
 
 .section-header-content-subtitle {
-
-    font-size: 22px;
-    font-family: "Asap";
-    color: rgba(77, 77, 77, 0.541);
-    line-height: 3.045;
-
-
+  font-size: 22px;
+  font-family: "Asap";
+  color: rgba(77, 77, 77, 0.541);
+  line-height: 3.045;
 }
 
 .section-header-content-button {
-    padding-top: 28px;
+  padding-top: 28px;
 }
 
 button.first-button {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
+  width: 160px;
+  height: 50px;
 
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
-    width: 160px;
-    height: 50px;
-
-    font-size: 16px;
-    font-family: 'Asap', sans-serif;
-    font-weight: 500;
-    color: rgb(77, 77, 77);
-    text-transform: uppercase;
-
-
+  font-size: 16px;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
+  color: rgb(77, 77, 77);
+  text-transform: uppercase;
 }
 
 button.second-button {
+  border-width: 1px;
+  border-color: rgb(77, 77, 77);
+  border-style: solid;
+  width: 160px;
+  height: 50px;
 
-    border-width: 1px;
-    border-color: rgb(77, 77, 77);
-    border-style: solid;
-    width: 160px;
-    height: 50px;
-
-    font-size: 16px;
-    font-family: 'Asap', sans-serif;
-    font-weight: 500;
-    color: rgb(77, 77, 77);
-    text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
+  color: rgb(77, 77, 77);
+  text-transform: uppercase;
 }
-
-
 
 /* --------------------know more---------------- */
 .know {
-    padding-bottom: 125px;
+  padding-bottom: 125px;
 }
 
 .know-image {
-    padding-top: 110px;
+  padding-top: 110px;
 }
 
 .know-content {
-    padding-top: 190px;
-
-
+  padding-top: 190px;
 }
 
 .know-title h2 {
-    padding-left: 100px;
-    padding-bottom: 15px;
-    font-size: 46px;
-    font-family: "Asap";
-    color: rgba(77, 77, 77, 0.8);
-    font-weight: bold;
-    line-height: 1.065;
-    text-transform: uppercase;
-
-
-
-
+  padding-left: 100px;
+  padding-bottom: 15px;
+  font-size: 46px;
+  font-family: "Asap";
+  color: rgba(77, 77, 77, 0.8);
+  font-weight: bold;
+  line-height: 1.065;
+  text-transform: uppercase;
 }
 
 .know-title img {
-    padding-left: 100px;
+  padding-left: 100px;
 }
 
-
 .know-subtitle p {
-    font-size: 16px;
-    font-family: "Asap";
-    color: rgb(77, 77, 77);
-    line-height: 1.625;
-    width: 469px;
-    height: 121px;
-    padding-left: 100px;
-
+  font-size: 16px;
+  font-family: "Asap";
+  color: rgb(77, 77, 77);
+  line-height: 1.625;
+  width: 469px;
+  height: 121px;
+  padding-left: 100px;
 }
 
 .know-button {
-    padding-top: 40px;
-    padding-left: 100px;
+  padding-top: 40px;
+  padding-left: 100px;
 }
 
 button.know-button-1 {
+  border-width: 1px;
+  border-color: rgb(77, 77, 77);
+  border-style: solid;
+  width: 243px;
+  height: 48px;
 
-    border-width: 1px;
-    border-color: rgb(77, 77, 77);
-    border-style: solid;
-    width: 243px;
-    height: 48px;
-
-    font-size: 16px;
-    font-family: "Asap";
-    color: rgb(77, 77, 77);
-    text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Asap";
+  color: rgb(77, 77, 77);
+  text-transform: uppercase;
 }
 
 /* ---------------services---------------- */
 
-
 .services-logo h2 {
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 70px;
-    font-size: 46px;
-    font-family: "Asap";
-    color: rgba(77, 77, 77, 0.8);
-    font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+  font-size: 46px;
+  font-family: "Asap";
+  color: rgba(77, 77, 77, 0.8);
+  font-weight: bold;
 }
 
 .services-img img {
-    padding-bottom: 20px;
-    position: relative;
-    left: 40%;
-
+  padding-bottom: 20px;
+  position: relative;
+  left: 40%;
 }
 
 .services-img-span {
-
-    font-size: 24px;
-    font-family: "Asap";
-    color: rgb(77, 77, 77);
-    display: flex;
-    justify-content: center;
-    padding-bottom: 90px;
-
-
+  font-size: 24px;
+  font-family: "Asap";
+  color: rgb(77, 77, 77);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
 }
-
 
 /* ----------------MY SKILS---------------- */
 
 .marking img {
-    padding-bottom: 250px;
-
+  padding-bottom: 250px;
 }
-
 
 /* -------------PORTFOLIO------------------  */
 
 .portfolio-image {
-    margin: 0 auto;
-    padding-bottom: 30px;
-    box-sizing: unset;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  box-sizing: unset;
 }
 
 .portfolio-image :hover {
-    background-color: rgb(40, 40, 40);
-    box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.15);
-
+  background-color: rgb(40, 40, 40);
+  box-shadow: 0px 0px 40px 15px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio-input {
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 230px;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 230px;
 }
 
 button.portfolio-input-button {
-
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
-    width: 160px;
-    height: 50px;
-    font-size: 16px;
-    font-family: 'Asap', sans-serif;
-    font-weight: 500;
-    color: rgb(77, 77, 77);
-    text-transform: uppercase;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 18px 26.68px 2.32px rgba(0, 0, 0, 0.1);
+  width: 160px;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Asap", sans-serif;
+  font-weight: 500;
+  color: rgb(77, 77, 77);
+  text-transform: uppercase;
 }
 
 .carousel-control-next-icon {
-    color: tomato;
+  color: tomato;
 }
 
 /* -------funfacts--------- */
 
-
 .funfacts {
-    margin-top: 120px;
-    background-color: rgb(246, 246, 246);
-    width: 90%;
-    height: 300px;
-    margin-bottom: 150px;
-
+  margin-top: 120px;
+  background-color: rgb(246, 246, 246);
+  width: 90%;
+  height: 300px;
+  margin-bottom: 150px;
 }
 
 .funfacts img {
-    padding-top: 75px;
-    padding-left: 100px;
+  padding-top: 75px;
+  padding-left: 100px;
 }
 
-
 .funfacts span {
-    font-size: 22px;
-    font-weight: bold;
-    font-family: "Asap";
-    color: rgba(33, 33, 33, 0.902);
-    padding-left: 115px;
-    padding-top: 30px;
-    line-height: 1.455;
-
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Asap";
+  color: rgba(33, 33, 33, 0.902);
+  padding-left: 115px;
+  padding-top: 30px;
+  line-height: 1.455;
 }
 
 .funfacts p {
-    padding-left: 60px;
-    font-size: 22px;
-    font-family: "Asap";
-    color: rgba(33, 33, 33, 0.902);
-    text-transform: uppercase;
-    line-height: 1.455;
-
+  padding-left: 60px;
+  font-size: 22px;
+  font-family: "Asap";
+  color: rgba(33, 33, 33, 0.902);
+  text-transform: uppercase;
+  line-height: 1.455;
 }
 
 /* ---------------- footer ------------ */
+
+/* ------------------MEDIA----------------- */
+
+@media screen and (max-width: 1100px) {
+  .row-portfolio-image {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1166px) {
+  .contaiter-tabs-content {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+}
+
+/* +++++++++++++++TABS++++++++++ */
+
+.tab {
+  cursor: pointer;
+  transform: skew(-20deg, 0deg);
+  border: 2px solid red;
+  color: black;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.tab:hover {
+  -webkit-box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
+    red 0 -18px 40px, 10px 11px 18px 12px rgba(0, 0, 0, 0);
+  box-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
+    red 0 -18px 40px, 10px 11px 18px 12px rgba(0, 0, 0, 0);
+}
+.tab-active {
+  background: rgb(206, 19, 51);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgb(206, 19, 51) 0%,
+    rgb(155, 164, 61) 91%,
+    rgb(187, 197, 12) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgb(206, 19, 51) 0%,
+    rgb(155, 164, 61) 91%,
+    rgb(187, 197, 12) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgb(206, 19, 51) 0%,
+    rgb(155, 164, 61) 91%,
+    rgb(187, 197, 12) 100%
+  );
+}
+
+.tabs-content-active {
+  visibility: visible;
+  height: auto;
+
+  -webkit-animation: flip-scale-down-hor 0.5s linear both;
+  animation: flip-scale-down-hor 0.5s linear both;
+}
+
+.tab-content {
+  height: 0;
+}
+
+.contaiter-tabs-content {
+  visibility: hidden;
+}
+
+@-webkit-keyframes flip-scale-down-hor {
+  0% {
+    -webkit-transform: scale(1) rotateX(0);
+    transform: scale(1) rotateX(0);
+  }
+  50% {
+    -webkit-transform: scale(0.4) rotateX(90deg);
+    transform: scale(0.4) rotateX(90deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateX(180deg);
+    transform: scale(1) rotateX(180deg);
+  }
+}
+@keyframes flip-scale-down-hor {
+  0% {
+    -webkit-transform: scale(1) rotateX(0);
+    transform: scale(1) rotateX(0);
+  }
+  50% {
+    -webkit-transform: scale(0.4) rotateX(90deg);
+    transform: scale(0.4) rotateX(90deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateX(180deg);
+    transform: scale(1) rotateX(180deg);
+  }
+}
